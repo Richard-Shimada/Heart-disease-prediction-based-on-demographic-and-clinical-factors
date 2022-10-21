@@ -28,7 +28,7 @@ To prepare the dataset for modeling, I checked for duplicates, imputed unknown v
 ## Modeling
 
 A number of classification models were tested - KNN, Logistic Regression, Decision tree, XGBoost, LGBM, and Gradient Boosting.
-The Logistic Regression and Gradient Boosting models performed very similarly after hyperparameter tuning.  
+The Logistic Regression and Gradient Boosting models performed the best after hyperparameter tuning.  
 
 ## Results
 
