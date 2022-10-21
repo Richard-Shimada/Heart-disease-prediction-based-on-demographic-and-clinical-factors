@@ -17,6 +17,7 @@ Biometrics vary widely between healthy people and those with heart disease - nam
 
 
 ![image](https://github.com/Richard-Shimada/Project-2/blob/main/catplot.png)
+![image](https://github.com/Richard-Shimada/Project-2/blob/main/catplot2.png)
 
 Within the actual items sold, all item types have a similar MRP in the $130 to $160 range.
 
