@@ -13,10 +13,10 @@ Dataset can be found online [here](https://www.kaggle.com/datasets/fedesoriano/h
 
 ![image](https://github.com/Richard-Shimada/Project-2/blob/main/boxplot%20of%20biometrics.png)
 
-Supermarkets have the highest total sales volume, with Type 1 stores having the majority of total sales volume (over $12M).
+Biometrics vary widely between healthy people and those with heart disease - namely blood pressure, cholesterol, heart rate, and Oldpeak.
 
 
-![image](https://github.com/Richard-Shimada/Project-2/blob/main/boxplot%20of%20biometrics.png)
+![image](https://github.com/Richard-Shimada/Project-2/blob/main/catplot.png)
 
 Within the actual items sold, all item types have a similar MRP in the $130 to $160 range.
 
