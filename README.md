@@ -33,12 +33,12 @@ The Logistic Regression and Gradient Boosting models performed the best after hy
 
 ## Results
 
-On the test set, the Logistic Regresssion and Gradient Boosting model have an accuracy metric of 86% - 87%. After hyperparameter tuning and feature engineering the accuracy increases only slightly.
+On the test set, the LGBM boosting model performed best with 89% accuracy. After hyperparameter tuning and feature engineering the accuracy increases only slightly.
 
 
 ## Recommendations:
 
-I would choose the Logistic Regression model for production as the final metrics are very similar to the gradient boosting model but it trains much faster so its paramaters can be refined with ease in the future.
+I would choose the default LGBM boosting model for production as it performs the best in terms of accuracy, precision, recall, and AUC.
 
 
 ## Limitations & Next Steps
