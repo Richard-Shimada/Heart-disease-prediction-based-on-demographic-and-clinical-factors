@@ -11,7 +11,7 @@ What biometric factors are most impactful in determining heart disease?
 Dataset can be found online [here](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction). Some visual callouts on the data set:
 
 
-![image](https://github.com/Richard-Shimada/Project-2/blob/main/boxplot%20of%20biometrics.png)
+![image](https://github.com/Richard-Shimada/Project-2/blob/main/boxplot%20of%20biometrics_2.png)
 
 Biometrics vary widely between healthy people and those with heart disease - namely blood pressure, cholesterol, heart rate, and Oldpeak.
 
@@ -28,7 +28,7 @@ To prepare the dataset for modeling, I checked for duplicates, imputed unknown v
 ## Modeling
 
 A number of classification models were tested - KNN, Logistic Regression, Decision tree, XGBoost, LGBM, and Gradient Boosting.
-The LGBM model performed the best, with Logistic Regression coming as the best non boosting model. Hyperparameter tuning and feature engineering were applied to these two models in an attempt to improve their performance.
+The XGBoost model performed the best, with Logistic Regression coming as the best non boosting model. Hyperparameter tuning and feature engineering were applied to these two models in an attempt to improve their performance.
 
 
 ## Results
@@ -38,7 +38,7 @@ On the test set, the LGBM boosting model performed best with 89% accuracy. After
 
 ## Recommendations:
 
-I would choose the default LGBM boosting model for production as it performs the best in terms of accuracy, precision, recall, and AUC.
+I would choose the default XGBoost model for production as it performs the best in terms of accuracy, precision, recall, and AUC.
 
 
 ## Limitations & Next Steps
