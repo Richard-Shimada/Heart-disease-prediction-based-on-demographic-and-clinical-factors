@@ -11,7 +11,7 @@ What biometric factors are most impactful in determining heart disease?
 Dataset can be found online [here](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction). Some visual callouts on the data set:
 
 
-![image](https://user-images.githubusercontent.com/110313483/191888643-2063745e-48d7-4744-a68a-f88e6e2415df.png)
+![image](https://github.com/Richard-Shimada/Project-2/blob/main/countplots%20of%20various%20biometrics.png)
 
 Supermarkets have the highest total sales volume, with Type 1 stores having the majority of total sales volume (over $12M).
 
