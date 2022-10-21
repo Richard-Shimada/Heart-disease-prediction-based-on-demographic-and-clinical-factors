@@ -13,7 +13,7 @@ Dataset can be found online [here](https://www.kaggle.com/datasets/fedesoriano/h
 
 ![image](https://github.com/Richard-Shimada/Project-2/blob/main/boxplot%20of%20biometrics_2.png)
 
-Biometrics vary widely between healthy people and those with heart disease - namely blood pressure, cholesterol, heart rate, and Oldpeak.
+Biometrics vary widely between healthy people and those with heart disease - namely heart rate and Oldpeak.
 
 
 ![image](https://github.com/Richard-Shimada/Project-2/blob/main/catplot.png)
@@ -33,7 +33,7 @@ The XGBoost model performed the best, with Logistic Regression coming as the bes
 
 ## Results
 
-On the test set, the LGBM boosting model performed best with 89% accuracy. After hyperparameter tuning and feature engineering the accuracy actually decreases slightly.
+On the test set, the LGBM boosting model performed best with 89% accuracy. After hyperparameter tuning and feature engineering the various evaluation metrics remain unchanged or decrease.
 
 
 ## Recommendations:
