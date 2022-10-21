@@ -43,7 +43,7 @@ I would choose the Logistic Regression model for production as the final metrics
 
 ## Limitations & Next Steps
 
-To further improve results, instead of a Linear Regression model we could try a Ridge, Lasso, or Elastic Net model. In addition to the regression tree, we could also try implementing other tree models such as bagged trees and random forests.
+At 918 records, the dataset is on the small side. If additional data can be obtained or appended perhaps the accuracy metric could be improved further.
 
 
 ### For further information
