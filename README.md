@@ -33,7 +33,7 @@ The Logistic Regression and Gradient Boosting models performed the best after hy
 
 ## Results
 
-On the test set, the LGBM boosting model performed best with 89% accuracy. After hyperparameter tuning and feature engineering the accuracy increases only slightly.
+On the test set, the LGBM boosting model performed best with 89% accuracy. After hyperparameter tuning and feature engineering the accuracy actually decreases slightly.
 
 
 ## Recommendations:
