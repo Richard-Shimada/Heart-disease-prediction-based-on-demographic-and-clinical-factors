@@ -19,15 +19,16 @@ Biometrics vary widely between healthy people and those with heart disease - nam
 ![image](https://github.com/Richard-Shimada/Project-2/blob/main/catplot.png)
 ![image](https://github.com/Richard-Shimada/Project-2/blob/main/catplot2.png)
 
-Within the actual items sold, all item types have a similar MRP in the $130 to $160 range.
+From a categorical variable standpoint, ExerciseAngina, Chest pain, and ST_Slope are all useful in predicting heart disease.
 
 ## Pre-processing
-To prepare the dataset for modeling, I removed duplicates, imputed unknown values, encoded categorial data, and scaled numerical data.
+To prepare the dataset for modeling, I checked for duplicates, imputed unknown values, encoded categorial data, and scaled numerical data.
 
 
 ## Modeling
 
-A Linear Regresssion and Regression Tree Model were both fit to the data. The Regression Tree model's max depth was tuned to improve the predictive power of the model.
+A number of classification models were tested - KNN, Logistic Regression, Decision tree, XGBoost, LGBM, and Gradient Boosting.
+The Logistic Regression and Gradient Boosting models performed very similarly after hyperparameter tuning.  
 
 ## Results
 
