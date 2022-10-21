@@ -1,14 +1,14 @@
-# Predicting sales of various store items using regression models 
+# Predicting heart disease based on various clinical metrics 
 
 
 **Author**: Richard Shimada
 
 ### Business problem:
 
-What features of items and the stores they are sold in are most impactful in determining total sales volume? 
+What biometric factors are most impactful in determining heart disease?
 
 ### Data:
-Dataset can be found online [here](https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/). Some visual callouts on the data set:
+Dataset can be found online [here](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction). Some visual callouts on the data set:
 
 
 ![image](https://user-images.githubusercontent.com/110313483/191888643-2063745e-48d7-4744-a68a-f88e6e2415df.png)
