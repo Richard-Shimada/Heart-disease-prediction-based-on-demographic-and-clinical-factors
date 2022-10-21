@@ -33,7 +33,7 @@ The XGBoost model performed the best, with Logistic Regression coming as the bes
 
 ## Results
 
-On the test set, the LGBM boosting model performed best with 89% accuracy. After hyperparameter tuning and feature engineering the various evaluation metrics remain unchanged or decrease.
+On the test set, the XGBoost model performed best with 89% accuracy. After hyperparameter tuning and feature engineering the various evaluation metrics remain unchanged or decrease.
 
 
 ## Recommendations:
