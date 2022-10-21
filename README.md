@@ -30,17 +30,15 @@ To prepare the dataset for modeling, I checked for duplicates, imputed unknown v
 A number of classification models were tested - KNN, Logistic Regression, Decision tree, XGBoost, LGBM, and Gradient Boosting.
 The Logistic Regression and Gradient Boosting models performed the best after hyperparameter tuning.  
 
+
 ## Results
 
-On the test set, the linear regression model has an R2 score of 0.57 compared to 0.59 for the regression tree model. 
-
-In addition, mean absolute error, mean squared error, and root mean square error are lower for the regression tree model.
-
+On the test set, the Logistic Regresssion and Gradient Boosting model have an accuracy metric of 86% - 87%. After hyperparameter tuning and feature engineering the accuracy increases only slightly.
 
 
 ## Recommendations:
 
-Of the two models I would recommend using the regression tree. After tuning, the variance has improved drastically. Furthermore, the error metrics and R2 score are more favorable for the regression tree.
+I would choose the Logistic Regression model for production as the final metrics are very similar to the gradient boosting model but it trains much faster so its paramaters can be refined with ease in the future.
 
 
 ## Limitations & Next Steps
